@@ -169,7 +169,8 @@ jobs: # Mulitiple Jobs can run at the same time
 ## Add a workflow to you repo  (Incomplete)
 *note, the first step may not be needed if you create a action in the github website action tab.
 First, you want to create a folder called `.github\workflows` in the root of the repository.  
-![image](https://github.com/user-attachments/assets/3cebdd23-bcb2-43c8-b9d6-3528e73a351e)
+<img src="https://github.com/user-attachments/assets/3cebdd23-bcb2-43c8-b9d6-3528e73a351e" style="border: 255px solid pink; border-radius: 18px; margin: 20px; padding: 5px; width: 150px;">
+
 
 Go to github where you repo is located, and click the actions tab  
 ![image](https://github.com/user-attachments/assets/ecc7e787-2faf-4064-9e88-d4553352f218)  
