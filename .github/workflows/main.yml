@@ -1,0 +1,22 @@
+name: Basic Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  greetings-job:
+    name: Greeting People
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a greeting
+        env:
+          MY_VAR: Hi there! My name is 
+          FIRST_NAME: Ben
+          LAST_NAME: Jerry
+        run: |
+          echo $MY_VAR $FIRST_NAME and $LAST_NAME.
