@@ -168,17 +168,28 @@ jobs: # Mulitiple Jobs can run at the same time
 
 ## Add a workflow to you repo  (Incomplete)
 *note, the first step may not be needed if you create a action in the github website action tab.
-First, you want to create a folder called `.github\workflows` in the root of the repository.  
-<img src="https://github.com/user-attachments/assets/3cebdd23-bcb2-43c8-b9d6-3528e73a351e" style="border: 255px solid pink; border-radius: 18px; margin: 20px; padding: 5px; width: 150px;">
+#### First, you want to create a folder called `.github\workflows` in the root of the repository.  
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/3cebdd23-bcb2-43c8-b9d6-3528e73a351e" width="300">
+</p>
+
+***
+#### Go to github where you repo is located, and click the actions tab  
 
 
-Go to github where you repo is located, and click the actions tab  
-![image](https://github.com/user-attachments/assets/ecc7e787-2faf-4064-9e88-d4553352f218)  
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/ecc7e787-2faf-4064-9e88-d4553352f218" width="700">
+</p>
 
-if no workflows exist, you should see this screen where you can use pre made workflow templates or create your own.
-![image](https://github.com/user-attachments/assets/da1e1f48-8764-4d2e-a484-8ac54ea5cf8d)  
+***
+#### if no workflows exist, you should see this screen where you can use pre made workflow templates or create your own.  
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/da1e1f48-8764-4d2e-a484-8ac54ea5cf8d" width="700">
+</p>
 
-Click on "set up a workflow yourself"  
+***
+
+#### Click on "set up a workflow yourself"  
 Copy and paste this code to try out your first workflow  
 ```
 name: Basic Workflow
@@ -204,21 +215,32 @@ jobs:
         run: |
           echo $MY_VAR $FIRST_NAME and $LAST_NAME.
 ```
+***
+After you copy and paste it, it should look like this:  
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/2c9f1340-807f-4c6c-adcb-83cc2a7df148" width="600">
+</p>
 
-it should look like this:  
-![image](https://github.com/user-attachments/assets/2c9f1340-807f-4c6c-adcb-83cc2a7df148)
+***
+Press commit changes, and then either pull or push to the github you added this work flow on.  
+After you pushed or pull, go back to the github actions tab and it should look something like this:  
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/4f0c5775-e8f1-4693-b8d8-ff8ff38ddef4" width="600">
+</p>
 
-Press commit changes, and then either pull or push to the github you added this work flow on.
+***
+text    
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/030b2c72-13b2-43e7-a148-a8eaeb46750b" width="600">
+</p>
 
-After you pushed or pull, go back to the github actions tab and it should look something like this:
-![image](https://github.com/user-attachments/assets/4f0c5775-e8f1-4693-b8d8-ff8ff38ddef4)
+***
+text    
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/a95c2645-cdb4-44ca-8c1a-43738296b7a4" width="600">
+</p>
 
-text  
-![image](https://github.com/user-attachments/assets/030b2c72-13b2-43e7-a148-a8eaeb46750b)
----
-text  
-![image](https://github.com/user-attachments/assets/a95c2645-cdb4-44ca-8c1a-43738296b7a4)
-
+***
 **And you just made you first workflow!**
 
 ## Self Hosted Runners
