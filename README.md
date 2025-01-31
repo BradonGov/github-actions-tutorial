@@ -28,11 +28,8 @@ An action is a custom application for the GitHub Actions platform that performs 
 A runner is a server that runs your workflows when they're triggered. Each runner can run a single job at a time.
 
 ## Workflow syntax For Github Actions
-Github actions uses YAML to create the workflows
-### About YAML
-YAML is a data serialisation language designed to be directly writable and readable by humans.
-#### Common syntax rules for YAML
-Based on this [article](https://learnxinyminutes.com/yaml/) 
+Github actions uses YAML (serialisation language designed to be writable and readable) to create the workflows  
+### Common syntax rules for YAML: Based on this [article](https://learnxinyminutes.com/yaml/) 
 ```YAML
 # Comments in YAML look like this.
 
@@ -205,3 +202,8 @@ jobs:
         run: |
           echo $MY_VAR $FIRST_NAME and $LAST_NAME.
 ```
+
+it should look like this.
+![image](https://github.com/user-attachments/assets/2c9f1340-807f-4c6c-adcb-83cc2a7df148)
+
+Press commit changes, and then either pull or push to the github you added this work flow on.
