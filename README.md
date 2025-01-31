@@ -225,3 +225,8 @@ text
 
 ### Add runner
 Follow steps [here](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners#adding-a-self-hosted-runner-to-a-repository). Github already made good insturctions here.
+
+Once you complete those steps, you should set a screen something like this
+![image](https://github.com/user-attachments/assets/1a8419d7-ac54-48f6-839b-9c3cf57364a8)
+
+Follow the steps on the download section on your github repo screen similar to the example above. Once completed your github self hosted runner will run and works flows will be able to use `runs-on: self-hosted`.
