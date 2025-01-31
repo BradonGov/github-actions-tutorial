@@ -166,18 +166,19 @@ jobs: # Mulitiple Jobs can run at the same time
  
 ```
 
-## Add a workflow to you repo
+## Add a workflow to you repo  (Incomplete)
+*note, the first step may not be needed if you create a action in the github website action tab.
 First, you want to create a folder called `.github\workflows` in the root of the repository.  
 ![image](https://github.com/user-attachments/assets/3cebdd23-bcb2-43c8-b9d6-3528e73a351e)
 
 Go to github where you repo is located, and click the actions tab  
-![image](https://github.com/user-attachments/assets/ecc7e787-2faf-4064-9e88-d4553352f218)
+![image](https://github.com/user-attachments/assets/ecc7e787-2faf-4064-9e88-d4553352f218)  
 
 if no workflows exist, you should see this screen where you can use pre made workflow templates or create your own.
-![image](https://github.com/user-attachments/assets/da1e1f48-8764-4d2e-a484-8ac54ea5cf8d)
+![image](https://github.com/user-attachments/assets/da1e1f48-8764-4d2e-a484-8ac54ea5cf8d)  
 
-Click on "set up a workflow yourself"
-Copy and paste this code to try out your first workflow
+Click on "set up a workflow yourself"  
+Copy and paste this code to try out your first workflow  
 ```
 name: Basic Workflow
 
@@ -203,7 +204,24 @@ jobs:
           echo $MY_VAR $FIRST_NAME and $LAST_NAME.
 ```
 
-it should look like this.
+it should look like this:  
 ![image](https://github.com/user-attachments/assets/2c9f1340-807f-4c6c-adcb-83cc2a7df148)
 
 Press commit changes, and then either pull or push to the github you added this work flow on.
+
+After you pushed or pull, go back to the github actions tab and it should look something like this:
+![image](https://github.com/user-attachments/assets/4f0c5775-e8f1-4693-b8d8-ff8ff38ddef4)
+
+text  
+![image](https://github.com/user-attachments/assets/030b2c72-13b2-43e7-a148-a8eaeb46750b)
+---
+text  
+![image](https://github.com/user-attachments/assets/a95c2645-cdb4-44ca-8c1a-43738296b7a4)
+
+**And you just made you first workflow!**
+
+## Self Hosted Runners
+**Self-hosted runners:** A self-hosted runner is a system that you deploy and manage to execute jobs from GitHub Actions on GitHub.  
+
+### Add runner
+Follow steps [here](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners#adding-a-self-hosted-runner-to-a-repository). Github already made good insturctions here.
