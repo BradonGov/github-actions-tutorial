@@ -154,15 +154,11 @@ jobs: # Mulitiple Jobs can run at the same time
           MY_VAR: Hi there! My name is 
           FIRST_NAME: Ben
           LAST_NAME: Jerry
-      run: (insert stright veriticle line here)
+        run: |
            echo $MY_VAR $FIRST_NAME and $LAST_NAME.
       - name: Print a goodbye message
-        env: # Enviroment Variables within this step
-          MY_VAR: Bye, it was nice meeting you  
-          FIRST_NAME: Ben
-          LAST_NAME: Jerry
-      run: (insert stright veriticle line here)
-           echo $MY_VAR $FIRST_NAME and $LAST_NAME.
+        run: |
+           echo "Good Bye!"
  
 ```
 
